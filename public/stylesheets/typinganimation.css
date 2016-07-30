@@ -1,0 +1,70 @@
+@-webkit-keyframes typing {
+    from { width: 0 }
+    to { width: 90% }
+}
+
+@-moz-keyframes typing {
+    from { width: 0 }
+    to { width: 90% }
+}
+
+@-webkit-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+}
+
+@-moz-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+}
+
+@media(min-width:767px) {
+
+        .typingAnim { 
+        font-size:180%;
+        margin-left: 2%;
+        margin-right: 2%;
+        width:92%;
+        white-space:wrap;
+        overflow:hidden;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        background: rgba(2, 2, 2, 0.6);
+
+        border-right: .1em solid black;
+        
+        -webkit-animation: typing 4s steps(66, end), /* # of steps = # of characters */
+                            blink-caret 1s step-end infinite;
+        -moz-animation: typing 6s steps(66, end), /* # of steps = # of characters */
+                            blink-caret 1s step-end infinite;
+    }
+    
+}
+
+@media(min-width:992px) {
+
+    .typingAnim { 
+        font-size:194%;
+        margin-left: 5%;
+        margin-right: 5%;
+
+        width:92%;
+        white-space:nowrap;
+        overflow:hidden;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        background: rgba(2, 2, 2, 0.6);
+
+        border-right: .1em solid black;
+        
+        -webkit-animation: typing 4s steps(66, end), /* # of steps = # of characters */
+                            blink-caret 1s step-end infinite;
+        -moz-animation: typing 6s steps(66, end), /* # of steps = # of characters */
+                            blink-caret 1s step-end infinite;
+    }
+    
+}
+
+
+
+

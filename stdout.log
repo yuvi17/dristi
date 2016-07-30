@@ -1,0 +1,16 @@
+{"level":"info","message":"[deliveryValidator][validateSendEmail] Validating Request {}","timestamp":"2016-07-24T09:02:34.971Z"}
+{"level":"error","message":"Validation failed : undefined","timestamp":"2016-07-24T09:02:35.002Z"}
+{"level":"info","message":" Validating Request {\"name\":\"Yuvraj Jaiswal\",\"messsage\":\"This is a test email\",\"email\":\"kumaryuvraj118@gmail.com\"}","timestamp":"2016-07-24T09:11:41.725Z"}
+{"level":"error","message":"Validation failed : undefined","timestamp":"2016-07-24T09:11:41.740Z"}
+{"level":"info","message":" Validating Request {\"name\":\"Yuvraj Jaiswal\",\"messsage\":\"This is a test email\",\"email\":\"kumaryuvraj118@gmail.com\"}","timestamp":"2016-07-24T09:14:03.159Z"}
+{"level":"error","message":"Validation failed : undefined","timestamp":"2016-07-24T09:14:03.169Z"}
+{"level":"info","message":" Validating Request {\"name\":\"Yuvraj Jaiswal\",\"message\":\"This is a test email\",\"email\":\"kumaryuvraj118@gmail.com\"}","timestamp":"2016-07-24T09:14:27.771Z"}
+{"level":"info","message":" Validation successful {\"name\":\"Yuvraj Jaiswal\",\"message\":\"This is a test email\",\"email\":\"kumaryuvraj118@gmail.com\"}","timestamp":"2016-07-24T09:14:27.775Z"}
+{"level":"info","message":" Validating Request {\"name\":\"Yuvraj Jaiswal\",\"message\":\"This is a test email\",\"email\":\"kumaryuvraj118@gmail.com\"}","timestamp":"2016-07-24T09:15:06.633Z"}
+{"level":"info","message":" Validation successful {\"name\":\"Yuvraj Jaiswal\",\"message\":\"This is a test email\",\"email\":\"kumaryuvraj118@gmail.com\"}","timestamp":"2016-07-24T09:15:06.641Z"}
+{"level":"info","message":" Validating Request {\"name\":\"Yuvraj Jaiswal\",\"message\":\"This is a test email\",\"email\":\"kumaryuvraj118@gmail.com\"}","timestamp":"2016-07-24T09:59:13.027Z"}
+{"level":"info","message":" Validation successful {\"name\":\"Yuvraj Jaiswal\",\"message\":\"This is a test email\",\"email\":\"kumaryuvraj118@gmail.com\"}","timestamp":"2016-07-24T09:59:13.050Z"}
+{"level":"info","message":" Validating Request {\"name\":\"Yuvraj Jaiswal\",\"message\":\"This is a test email\",\"email\":\"kumaryuvraj118@gmail.com\"}","timestamp":"2016-07-25T20:56:38.593Z"}
+{"level":"info","message":" Validation successful {\"name\":\"Yuvraj Jaiswal\",\"message\":\"This is a test email\",\"email\":\"kumaryuvraj118@gmail.com\"}","timestamp":"2016-07-25T20:56:38.639Z"}
+{"level":"info","message":" Validating Request {\"name\":\"Yuvraj Jaiswal\",\"message\":\"This is a test email\",\"email\":\"vikaskpandey@gmail.com\"}","timestamp":"2016-07-25T20:56:58.174Z"}
+{"level":"info","message":" Validation successful {\"name\":\"Yuvraj Jaiswal\",\"message\":\"This is a test email\",\"email\":\"vikaskpandey@gmail.com\"}","timestamp":"2016-07-25T20:56:58.175Z"}

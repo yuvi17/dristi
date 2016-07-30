@@ -1,0 +1,145 @@
+header .navText{
+	font-size: 15px;
+	margin: 0px;
+	padding: 0px;
+	margin-top : -15px;
+}
+
+header .header-trans {
+	background-color : rgba(100, 100, 100, 0.7);
+}
+
+header .green-nav{
+	background-color: rgba(0, 51, 0, 0.95)
+}
+header .navImg{
+	margin-top: 0px;
+	width: 120px !important;
+	height: 70px !important;
+	margin-left: 20px; 
+}
+
+header nav h3{
+	margin: 10px;
+}
+
+nav i{
+	margin-top : -20px;
+}
+nav li a:hover{
+	background: white;
+	color:black;
+}
+header .customNav{
+	height: 65px;
+}
+.material-icons{
+	margin-top: 0px !important;
+	vertical-align: middle;
+}
+header .side-nav{
+	margin-top : 60px;
+	z-index : 0;
+	padding-bottom: 60px;
+}
+header .side-nav.fixed a{
+	color:white;
+}
+header .side-nav.fixed a:hover{
+	color:black;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-button {
+	width: 8px;
+	height:5px;
+}
+::-webkit-scrollbar-track {
+	background:#eee;
+	border: thin solid lightgray;
+	box-shadow: 0px 0px 3px #dfdfdf inset;
+	border-radius:10px;
+}
+::-webkit-scrollbar-thumb {
+	background:#999;
+	border: thin solid gray;
+	border-radius:10px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background:#7d7d7d;
+}	
+
+.slider.fullscreen{
+	position: static;
+      width : auto;
+      height: 100vh;
+      background: transparent;
+}
+.slider .slides{
+	background-color: transparent !important;
+}
+.slider .slides .slider-image {
+	height: 100%;
+}
+.slider .slides li {
+	top : initial;
+}
+.slider .anim {
+	left :  4% !important;
+	right: 8% !important;
+	width : 100% !important;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+	top : 30% !important;
+	
+}
+.slider .animated-text {
+	margin: 10px;
+	font-size : 28px;
+	font-family:  Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height: 150%;
+	font-stretch: 150%;
+	padding-right: 5px;
+
+}
+#home,
+#about{
+	margin-bottom: 0px;
+}
+#about {
+	padding-top: 30px;
+}
+
+#about.about-icons {
+	height: 100vh;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+
+#about .custom-logo {
+	height: auto;
+	width: 150px;
+	margin: 0px;
+	padding: 0px;
+}
+.center {
+	text-align: center;
+	vertical-align: middle;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	padding-left: auto !important;
+	padding-right: auto !important;
+}
+#about .image-box {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#about .about-text{
+	font-size: 24px;
+	font-family: sans-serif;
+}
