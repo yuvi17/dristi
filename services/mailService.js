@@ -10,12 +10,11 @@ module.exports = app => {
     let defaultRec = app.config.env.mailRec;
 
     function sendMail(email, body, name){
-    	let subject = "Website Contact Us Form by " + name;
     	let mailOptions = {
-    		from : defaultSender,
-    		to : defaultRec,
+    		from : "Reminder Service",
+    		to : email,
     		replyTo : email,
-    		subject : subject,
+    		subject : "Reminder for Event for " + name,
     		text : body
     	};
 

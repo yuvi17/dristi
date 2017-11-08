@@ -90,3 +90,27 @@
 {"level":"info","message":" Validation successful {\"name\":\"Yuvraj Jaiswal\",\"email\":\"kumaryuvraj118@gmail.com\",\"message\":\"m m\"}","timestamp":"2016-08-03T20:19:24.484Z"}
 {"level":"info","message":" Validating Request {\"name\":\"Yuvraj Jaiswal\",\"email\":\"kumaryuvraj118@gmail.com\",\"message\":\"m ,\"}","timestamp":"2016-08-03T20:19:59.794Z"}
 {"level":"info","message":" Validation successful {\"name\":\"Yuvraj Jaiswal\",\"email\":\"kumaryuvraj118@gmail.com\",\"message\":\"m ,\"}","timestamp":"2016-08-03T20:19:59.795Z"}
+{"level":"info","message":" Validating Request {\"name\":\"Yuvraj\",\"email\":\"kumaryuvraj118@gmail.com\",\"body\":\"This is a test\"}","timestamp":"2017-11-08T18:43:08.253Z"}
+{"level":"error","message":"Validation failed : undefined","timestamp":"2017-11-08T18:43:08.262Z"}
+{"level":"info","message":" Validating Request {\"name\":\"Yuvraj\",\"email\":\"kumaryuvraj118@gmail.com\",\"message\":\"This is a test\"}","timestamp":"2017-11-08T18:43:17.951Z"}
+{"level":"info","message":" Validation successful {\"name\":\"Yuvraj\",\"email\":\"kumaryuvraj118@gmail.com\",\"message\":\"This is a test\"}","timestamp":"2017-11-08T18:43:17.952Z"}
+{"level":"info","message":" Validating Request {\"name\":\"Yuvraj\",\"email\":\"kumaryuvraj118@gmail.com\",\"message\":\"This is a test\"}","timestamp":"2017-11-08T18:49:08.422Z"}
+{"level":"info","message":" Validation successful {\"name\":\"Yuvraj\",\"email\":\"kumaryuvraj118@gmail.com\",\"message\":\"This is a test\"}","timestamp":"2017-11-08T18:49:08.422Z"}
+{"level":"info","message":" Validating Request {\"name\":\"test reminder\",\"message\":\"This is a test for reminder application.\",\"email\":\"kumaryuvraj118@gmail.com\"}","timestamp":"2017-11-08T19:09:05.874Z"}
+{"level":"info","message":" Validation successful {\"name\":\"test reminder\",\"message\":\"This is a test for reminder application.\",\"email\":\"kumaryuvraj118@gmail.com\"}","timestamp":"2017-11-08T19:09:05.881Z"}
+{"level":"info","message":" Validating Request {\"name\":\"test reminder\",\"message\":\"This is a test for reminder application.\",\"email\":\"kumaryuvraj118@gmail.com\"}","timestamp":"2017-11-08T19:09:13.196Z"}
+{"level":"info","message":" Validation successful {\"name\":\"test reminder\",\"message\":\"This is a test for reminder application.\",\"email\":\"kumaryuvraj118@gmail.com\"}","timestamp":"2017-11-08T19:09:13.196Z"}
+{"level":"info","message":" Validating Request {\"name\":\"Yuvraj\",\"email\":\"kumaryuvraj118@gmail.com\",\"message\":\"This is a test\"}","timestamp":"2017-11-08T19:10:24.546Z"}
+{"level":"info","message":" Validation successful {\"name\":\"Yuvraj\",\"email\":\"kumaryuvraj118@gmail.com\",\"message\":\"This is a test\"}","timestamp":"2017-11-08T19:10:24.546Z"}
+{"level":"info","message":" Validating Request {\"name\":\"test reminder\",\"message\":\"This is a test for reminder application.\",\"email\":\"kumaryuvraj118@gmail.com\"}","timestamp":"2017-11-08T19:13:13.661Z"}
+{"level":"info","message":" Validation successful {\"name\":\"test reminder\",\"message\":\"This is a test for reminder application.\",\"email\":\"kumaryuvraj118@gmail.com\"}","timestamp":"2017-11-08T19:13:13.669Z"}
+{"level":"info","message":" Validating Request {\"name\":\"Yuvraj\",\"email\":\"kumaryuvraj118@gmail.com\",\"message\":\"This is a test\"}","timestamp":"2017-11-08T19:15:51.215Z"}
+{"level":"info","message":" Validation successful {\"name\":\"Yuvraj\",\"email\":\"kumaryuvraj118@gmail.com\",\"message\":\"This is a test\"}","timestamp":"2017-11-08T19:15:51.223Z"}
+{"level":"info","message":" Validating Request {\"name\":\"Yuvraj\",\"email\":\"kumaryuvraj118@gmail.com\",\"message\":\"This is a test\"}","timestamp":"2017-11-08T19:20:08.309Z"}
+{"level":"info","message":" Validation successful {\"name\":\"Yuvraj\",\"email\":\"kumaryuvraj118@gmail.com\",\"message\":\"This is a test\"}","timestamp":"2017-11-08T19:20:08.317Z"}
+{"level":"info","message":" Validating Request {\"name\":\"Yuvraj\",\"email\":\"kumaryuvraj118@gmail.com\",\"message\":\"This is a test\"}","timestamp":"2017-11-08T19:21:51.492Z"}
+{"level":"info","message":" Validation successful {\"name\":\"Yuvraj\",\"email\":\"kumaryuvraj118@gmail.com\",\"message\":\"This is a test\"}","timestamp":"2017-11-08T19:21:51.499Z"}
+{"level":"info","message":" Validating Request {\"name\":\"test reminder\",\"message\":\"This is a test for reminder application.\",\"email\":\"kumaryuvraj118@gmail.com\"}","timestamp":"2017-11-08T19:26:12.161Z"}
+{"level":"info","message":" Validation successful {\"name\":\"test reminder\",\"message\":\"This is a test for reminder application.\",\"email\":\"kumaryuvraj118@gmail.com\"}","timestamp":"2017-11-08T19:26:12.162Z"}
+{"level":"info","message":" Validating Request {\"name\":\"test reminder\",\"message\":\"This is a test for reminder application.\",\"email\":\"yjaiswal@vmware.com\"}","timestamp":"2017-11-08T19:28:58.291Z"}
+{"level":"info","message":" Validation successful {\"name\":\"test reminder\",\"message\":\"This is a test for reminder application.\",\"email\":\"yjaiswal@vmware.com\"}","timestamp":"2017-11-08T19:28:58.291Z"}
