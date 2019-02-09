@@ -3,8 +3,6 @@
 let mailer = require("nodemailer");
 
 module.exports = app => {
-	let logger = app.helpers.logger;
-    let errorFormatter = app.helpers.errorFormatter;
     let transporter = mailer.createTransport('smtps://kumaryuvraj118%40gmail.com:yashuvashu@smtp.gmail.com');
     let defaultSender = app.config.env.mailSender;
     let defaultRec = app.config.env.mailRec;

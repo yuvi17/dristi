@@ -25,8 +25,8 @@ $form.on('submit', function() {
 			$(".message").html("<br><br>We've got your message.We'll get back to you soon !<br><br>");
 		})
 		.fail(function(jqXHR, textStatus, errorThrown) {
-			$('#mail-form').find('input:text').val(''); 
-			$('#mail-form').find('input:email').val('');
+			$('#mail-form').find('name').val(''); 
+			$('#mail-form').find('email').val('');
 			$('textarea').val('');
 			$("submit-button").prop('disabled',false); 
 	 		$("#loader").hide();
