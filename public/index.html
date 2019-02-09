@@ -1,4 +1,4 @@
-<! DOCTYPE HTML >
+<!DOCTYPE HTML >
 
 <!-- Coded by Yuvraj Jaiswal for DRISTI CHARITABLE TRUST -->
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -17,24 +17,18 @@
       	rel="stylesheet">
         <title>DRISTI</title>
         <!-- Start Open Web Analytics Tracker -->
-		<script type="text/javascript">
-		//<![CDATA[
-		var owa_baseUrl = 'http://localhost:9999/owa/';
-		var owa_cmds = owa_cmds || [];
-		owa_cmds.push(['setSiteId', '0a0611b42c0de0ad85d9791f5fe3c9a6']);
-		owa_cmds.push(['trackPageView']);
-		owa_cmds.push(['trackClicks']);
-		owa_cmds.push(['trackDomStream']);
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script type="text/javascript" src="/javascripts/jquery.min.js"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134209950-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
 
-		(function() {
-		var _owa = document.createElement('script'); _owa.type = 'text/javascript'; _owa.async = true;
-		owa_baseUrl = ('https:' == document.location.protocol ? window.owa_baseSecUrl || owa_baseUrl.replace(/http:/, 'https:') : owa_baseUrl );
-		_owa.src = owa_baseUrl + 'modules/base/js/owa.tracker-combined-min.js';
-		var _owa_s = document.getElementsByTagName('script')[0]; _owa_s.parentNode.insertBefore(_owa, _owa_s);
-		}());
-		//]]>
+		  gtag('config', 'UA-134209950-1');
 		</script>
-		<!-- End Open Web Analytics Code -->
+
+		<!-- End Gtag -->
     </head>
     <body>
     	<header>
@@ -71,38 +65,23 @@
 			      <li>
 			        <img class="responsive-img slider-image" src="/images/backgrounds/f7.jpg" style="-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
     filter: grayscale(100%);"> <!-- random image -->
-			        <div class="caption anim">
-			        <h2 class="typingAnim animated-text">DIRECTING RURAL INDIA TOWARDS SOCIAL AND TECHNOLOGICAL INTEGRATION</h2>
+			       	<div class="caption anim">
+			        	<h2 class="typingAnim animated-text">
+			        		DIRECTING RURAL INDIA TOWARDS SOCIAL AND TECHNOLOGICAL INTEGRATION
+								</h2>
 			        </div>
 			      </li>
 			      <li>
 			        <img class="responsive-img slider-image" src="/images/backgrounds/f5.jpg"> 
-			        <div class="caption center-align">
-			          <!-- <h2>Where Every Word Counts</h2> -->
-			        </div>
 			      </li>
 			      <li>
 			       <img class="responsive-img slider-image" src="/images/backgrounds/f9.jpg"> 
-			        <div class="caption center-align">
-			          <!-- <h2 class="">Each Argument is Important</h2> -->
-			        </div>
 			      </li>
 			      <li>
 			        <img class="responsive-img slider-image" src="/images/backgrounds/f10.jpg"> 
-			        <div class="caption right-align">
-			          <!-- <h3 class="tagline">OUTWIT. OUTPLAY. OUTLIVE.</h3>
-			          <br>
-			          <img class="responsive-img slider-image" src="images/backgrounds/logo.png" class="img class="responsive-img slider-image"-circle center-align headImg class="responsive-img slider-image""/>
-			          <h1 class="heading">ROSTRA '16</h1>
-			          <p class="right text">12th-14th Feb, 2016</p> -->
-			        </div>
 			      </li>
 			      <li>
 			        <img class="responsive-img slider-image" src="/images/backgrounds/f2.jpg"> 
-			        <div class="caption center-align">
-			        	<img class="responsive-img slider-image" src="images/backgrounds/logo.png" class="img responsive-img slider-image"-circle  headImg"/>
-			          <!-- <h1 class="heading">ROSTRA</h1> -->
-			        </div>
 			      </li>
 			    </ul>
 	  		</div>
@@ -112,7 +91,7 @@
 	  	</div>
 	  	<div class="row section scrollspy  about-icons valign-wrapper" id="about">
 
-	  	  	<div class="container row about-container">
+	  	  <div class="container row about-container">
 	  	  	<h2 class="center">ABOUT US</h2>
 		  		<div class="col s12 m6 l4 image-box">
 		  			<div class="center-align round-container">
@@ -120,50 +99,50 @@
 		  			</div>
 		  			<h5 class="center about-text">  MISSION</h5>
 		  		</div>
-		  		<div class="col s12 m6 l4 image-box">
+		  		<div class="col s12 m4 l4 image-box">
 		  			<div class="center-align round-container">
 		  			<a href="views/vision.html"><img src="/images/icons/vision.png" class="img-resposive custom-logo center circle z-depth-2" /></a>
 		  			</div>
 		  			<h5 class="center about-text">  VISION</h5>
 		  		</div>
-		  		<div class="col s12 m6 l4 image-box">
+		  		<div class="col s12 m4 l4 image-box">
 		  			<div class="center-align round-container">
 		  			<a href="views/journey.html"><img src="/images/icons/journey.png" class="img-resposive custom-logo center circle z-depth-2" /></a>
 		  			</div>
 		  			<h5 class="center about-text">  JOURNEY</h5>
 		  		</div>
-		  		<div class="col s12 m6 l4 image-box">
+		  		<div class="col s12 m4 l4 image-box">
 		  			<div class="center-align round-container">
 		  			<a href="views/pillars.html"><img src="/images/icons/pillars.png" class="img-resposive custom-logo center circle z-depth-2" /></a>
 		  			</div>
 		  			<h5 class="center about-text">  PILLARS</h5>
 		  		</div>
-		  		<div class="col s12 m6 l4 image-box">
+		  		<div class="col s12 m4 l4 image-box">
 		  			<div class="center-align round-container">
 		  			<a href="views/chapters.html"><img src="/images/icons/chapters.png" class="img-resposive custom-logo center circle z-depth-2" /></a>
 		  			</div>
 		  			<h5 class="center about-text">  CHAPTERS</h5>
 		  		</div>
 
-		  		<div class="col s12 m6 l4 image-box">
+		  		<div class="col s12 m4 l4 image-box">
 		  			<div class="center-align round-container">
 		  			<a href="views/team.html"><img src="/images/icons/people-1.png" class="img-resposive custom-logo center circle z-depth-2" /></a>
 		  			</div>
 		  			<h5 class="center about-text">  TEAM</h5>
 		  		</div>
-		  		<div class="col s12 m6 l4 image-box">
+		  		<div class="col s12 m4 l4 image-box">
 		  			<div class="center-align round-container">
 		  			<a href="views/events.html"><img src="/images/icons/events.png" class="img-resposive custom-logo center circle z-depth-2" /></a>
 		  			</div>
-		  			<h5 class="center about-text">EVENTS & <br> ACTIVITIES</h5>
+		  			<h5 class="center about-text">  EVENTS & <br> ACTIVITIES</h5>
 		  		</div>
-		  		<div class="col s12 m6 l4 image-box">
+		  		<div class="col s12 m4 l4 image-box">
 		  			<div class="center-align round-container">
 		  			<a href="views/vd.html"><img src="/images/icons/volunteer.png" class="img-resposive custom-logo center circle z-depth-2" /></a>
 		  			</div>
 		  			<h5 class="center about-text">  VOLUNTEER <br> DIARIES</h5>
 		  		</div>
-		  		<div class="col s12 m6 l4 image-box">
+		  		<div class="col s12 m4 l4 image-box">
 		  			<div class="center-align round-container">
 		  			<a href="views/media.html"><img src="/images/icons/media.png" class="img-resposive custom-logo center circle z-depth-2" /></a>
 		  			</div>
@@ -232,8 +211,8 @@
 	  				<div class="divider grey darken-1"></div>
 	  				<h5 class="text-center"><b>Manish Pandey</b><br>
 	  				Media and PR<br>
-	  				+918586057110 <h6><a href="mailto:mainsh1609.11@gmail.com">
-	  				mainsh1609.11@gmail.com</a></h6>
+	  				+918586057110 <h6><a href="mailto:manish1609.11@gmail.com">
+	  				manish1609.11@gmail.com</a></h6>
 	  				</h5>
 	  				<br>
 	  			</div>
@@ -254,7 +233,6 @@
 	  		<br>
 	  		<div class="footer-copyright darken-2">
             <div class="container">
-<!--             <span class="left">ROSTRA '16, 12th-14th Feb, 2016</span> -->
             <span class="right black-text">Created By : Yuvraj Jaiswal  -  Designed By : Rituraj</span>
             
             </div>
@@ -273,20 +251,16 @@
 		    </div>
     	</div>
     </body>
-    <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
     <script type="text/javascript" src="/javascripts/materialize.min.js"></script>
     <script type="text/javascript" src="/javascripts/init.js"></script>
     <script type="text/javascript">
     	$(document).ready(function(){
 		    $(window).scroll(function(){
-		    	// console.log($(window).scrollTop()+" scroll height ");
 		        if($(window).scrollTop() > 550){
 		        	
 		            $("nav").removeClass("header-trans").addClass("teal").addClass('darken-2').addClass('customNav').addClass('z-depth-2').removeClass('z-depth-0');
-		            // $("p.navText").addClass('black-text');
 		        }else {
 		    		$("nav").removeClass("teal").removeClass('darken-2').addClass("header-trans").removeClass('z-depth-2').addClass('z-depth-0');
-		    		// $(".navText").removeClass('white-text');
 		   		}
 
     		});
